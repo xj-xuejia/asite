@@ -1,0 +1,399 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.swiper-button-next,
+.swiper-button-prev{
+  outline:0;
+}
+.center{
+  width: 1120px;
+  margin: 0 auto;
+ }
+ .foot{
+   padding-bottom: 10px !important;
+ }
+ .banner .center .top div span{
+   width: 410px;
+   line-height: 30px;
+   text-align: justify;
+   font-size: 14px;
+   margin: 30px 0 30px 100px;
+  }
+  .banner .center .top div img{
+    padding: 0 !important;
+    margin: -200px 0 0 635px
+  }
+  .banner .center .top div img:hover{
+    transition: 1s;
+    transform: scale(1.1);
+  }
+  .banner .center .top div a{
+    margin: 0 0 0 100px;
+  }
+  .banner .center .top div p{
+    margin: 144px 0 0 100px;
+    font-size: 36px;
+  }
+  .banner .center .top div{
+    height: 400px !important;
+    padding: 0 0 80px 0;
+  }
+  .chanpin>.center>div>.swiper-button-next,
+  .chanpin>.center>div>.swiper-button-prev{
+    top: 122% !important;
+    background-image: none !important;
+  }
+  .chanpin>.center>div>.swiper-button-next>img,
+  .chanpin>.center>div>.swiper-button-prev>img{
+    width: 88px;
+    height: 76px;
+  }
+  .chanpin>.center>div>.swiper-button-prev{
+    left: 100px;
+  }
+  .chanpin>.center>div>.swiper-button-next{
+    right: 100px;
+  }
+  .chanpin>.center{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-wrap: wrap;
+}
+.chanpin>.center>h1{
+  width: 100%;
+  display: inline-block;
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
+  margin: 110px 0 60px 0;
+}
+.chanpin>.center>p{
+  width: 100%;
+  text-align: center;
+}
+.chanpin>.center>.swiper-container{
+  margin: 60px 0 100px !important;
+}
+.chanpin>.center>.swiper-container>div>div{
+  text-align: center;
+  cursor: pointer;
+  width: 235px !important;
+  height: 250px !important;
+}
+.chanpin>.center>.swiper-container>div>div:hover,
+.chanpin>.center>.swiper-container>div>div:active{
+  color: #0072ff;
+  transition: 0.4s;
+  transform: scale(1.05);
+}
+.chanpin>.center>.swiper-container>div>div>span{
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 22px 0;
+}
+.chanpin>.center>.swiper-container>div>div>img{
+  width: 100px;
+  margin: 10px 0 0 0;
+}
+.chanpin>.center>.swiper-container>div>div>p{
+  padding: 0 18px;
+}
+.yingyong{
+  background-position:0 center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 0 100px 0;
+}
+.yingyong>div>.swiper-button-next,
+.yingyong>div>.swiper-button-prev{
+  top: 210% !important;
+  background-image: none;
+  width: 88px;
+  height: 76px;
+}
+.yingyong>div>.swiper-button-next{
+  right: 80px;
+}
+.yingyong>div>.swiper-button-prev{
+  left: 80px;
+}
+.swiper-container{
+  width: 100%;
+  height: 100%;
+}
+.swiper-pagination-bullet{
+  background: white !important;
+  margin: 0 6px !important;
+}
+.swiper-pagination-bullet-active{
+  background: #0072ff !important;
+}
+.swiper-pagination{
+  width: 100%;
+  text-align: center;
+}
+.yingyong>.center>h1{
+  color: white;
+  width: 100%;
+  display: inline-block;
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
+  margin: 110px 0 60px 0;
+}
+.yingyong>.center>p{
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+.yingyong>.center>div{
+  width: 82%;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.yingyong>.center>div>div>div{
+  width: 90%;
+  margin: 60px auto;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  text-align: center;
+  padding:40px 0;
+  align-items: center;
+  justify-content: center;
+}
+.yingyong>.center>div>div>div>div{
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  flex-wrap: wrap;
+  width: 200px;
+}
+.yingyong>.center>div>div>div>div>img{
+  width: 120px;
+  margin: 0 auto;
+}
+.yingyong>.center>div>div>div>div>img:hover,
+.yingyong>.center>div>div>div>div>img:active{
+  transition: 1s;
+  transform: scale(1.1); 
+}
+.yingyong>.center>div>div>div>div>span{
+  display: block;
+  color: white;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #01e0d3;
+  width: 88px;
+}
+.yingyong>.center>div>div>div>p{
+  text-align: left;
+  font-size: 14px;
+  color: #01e0d3;
+  line-height: 22px;
+  width: 500px;
+  padding: 0 42px;
+  align-items: center;
+}
+.collaborate{
+  background-image: url(../image/customer_bg.jpg);
+  background-position:0 center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 0 100px 0;
+}
+.collaborate>.center>h1{
+  width: 100%;
+  display: inline-block;
+  font-size: 38px;
+  font-weight: 600;
+  margin: 110px 0 60px 0;
+  text-align: center;
+}
+.collaborate>.center>p{
+  text-align: center;
+  margin: 0 auto 60px auto;
+  color: #898888;
+}
+.collaborate>.center>div{
+  width: 84%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.collaborate>.center>div>img{
+  width: 155px;
+  margin: -3px;
+  cursor: pointer;
+  border: 1px solid #d3d3d3;
+}
+.collaborate>.center>div>img:hover,
+.collaborate>.center>div>img:active{
+  transition: 1s;
+  transform: scale(1.08);
+}
+.jiage{
+  background-image: url(../image/sounds/chanpinjiage.jpg);
+  background-position:0 center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 0 100px 0;
+}
+.jiage>.center>div{
+  background-image: url(../image/sounds/20-lianxishangwu.png);
+  color: white;
+}
+.jiage>.center>div:hover{
+  transition: 1s;
+  transform: scale(1.08);
+}
+.jiage>.center>div:active{
+  transition: 1s;
+  transform: scale(1.08);  
+}
+.jiage>.center>div>span,.jiage>.center>div>p{
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+}
+.jiage>.center>div>span{
+  margin: 40px 0 0 0;
+}
+.jiage>.center>div>p{
+  font-size: 22px;
+}
+.jiage>.center>div>p:hover{
+  cursor: pointer;
+}
+.jiage>.center>div>p:active{
+  cursor: pointer;
+}
+.jiage>.center>div>div{
+  margin: 95px 0 0 0;
+  color: black;
+}
+.jiage>.center>div>div>span{
+  font-weight: 600;
+  margin: 0 0 0 60px;
+}
+.jiage>.center>div>div>ul{
+  margin: 20px 0 0 60px;
+  color: #898888;
+  font-size: 14px;
+}
+.jiage>.center{
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  flex-wrap: wrap;
+}
+.jiage>.center>h1{
+  color: white;
+  width: 100%;
+  display: inline-block;
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
+  margin: 110px 0 60px 0;
+}
+.jiage>.center>p{
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+.jiage>.center>div{
+  width: 382px;
+  height: 364px;
+  margin: 50px auto;
+}
+.kaifa{
+  background-image: url(../image/sounds/kaifazhe.jpg);
+  background-position:0 center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 0 100px 0;
+}
+.kaifa>.center>h1{
+  width: 100%;
+  display: inline-block;
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
+  margin: 110px 0 60px 0;
+}
+.kaifa>.center>p{
+  color: #898888;
+  width: 100%;
+  text-align: center;
+}
+.kaifa>.center>div{
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  width: 100%;
+  justify-content: space-around;
+  margin: 30px 0 50px 0;
+}
+.kaifa>.center>div>div{
+  width: 296px;
+  margin: 0 80px;
+  cursor: pointer;
+}
+.kaifa>.center>div>div:hover,
+.kaifa>.center>div>div:active{
+  transition: 0.5s;
+  transform: scale(1.05); 
+  color: #0072ff;
+}
+.kaifa>.center>div>div>img{
+  display: block;
+  margin: 0 auto;
+  width: 132px;
+}
+.kaifa>.center>div>div>span{
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+}
+.kaifa>.center>div>div>p{
+  font-size: 14px;
+  margin: 20px auto;
+  line-height: 28px;
+  text-align: center;
+}
+.kaifa>.center>div>div>a{
+  font-size: 14px;
+  display: block;
+  color: #0072ff;
+  width: 100%;
+  text-align: center;
+}
+.foot{
+  padding-bottom: 20px;
+}
+.banner .center .top .logo {
+  position: fixed;
+  z-index: 9999;
+  left: 0%;
+}
+
+.banner .center .top ul,
+.banner .center .top .logo {
+  top: 0%;
+}
+
+.banner .center .top ul {
+  position: fixed;
+  z-index: 99999;
+  right: 0%;
+}
+#communicate{
+  display: none;
+}

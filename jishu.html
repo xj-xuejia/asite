@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="cn">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/jishu.css">
+  <link rel="stylesheet" href="./css/media/jishu.css">
+  <link rel="stylesheet" href="../css/page/animate.css">
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/wow.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div>
+      <div>
+        <div class="logo"></div>
+        <ul>
+          <li>
+            <a href="./index.html" class="hoverA">首页</a>
+          </li>
+          <li>
+            <a href="./call.html" class="hoverA">呼叫中心二次开发</a>
+          </li>
+          <li>
+            <a href="./sounds.html" class="hoverA">语音/短信通知</a>
+          </li>
+          <li>
+            <a href="./message.html" class="hoverA">短信验证</a>
+          </li>
+          <li>
+            <a href="./private.html" class="hoverA">私密通话</a>
+          </li>
+          <li>
+            <a href="./marketing.html" class="hoverA">企销客</a>
+          </li>
+          <li>
+            <a href="./gratis.html" class="hoverA">免费体验</a>
+          </li>
+          <li>
+            <a href="./jishu.html" class="hoverA">技术支持</a>
+          </li>
+          <li>
+            <a href="./about.html" class="hoverA">关于我们</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <div class="banner">
+        <div>
+          <div>
+            <img src="./image/index/banner1.png" alt="" class="wow fadeInLeftBig">
+            <img src="./image/index/banner2.png" alt="" class="wow fadeInRightBig">
+          </div>
+        </div>
+      </div>
+      <div class="hot">
+        <div>
+          <h1>热门产品</h1>
+          <div>
+            <div>
+              <div>
+                <img src="./image/index/shout.jpg" alt="">
+              </div>
+              <span>智能呼叫中心</span>
+              <p>精准高效云电销+全渠道云客服，助力企业产业升级。</p>
+              <a href="javascript:;">了解更多 ></a>
+            </div>
+            <div>
+              <div>
+                <img src="./image/index/voice.jpg" alt="">
+              </div>
+              <span>语音通信解决方案</span>
+              <p>覆盖客户多种语言业务场景，接入便捷，智能稳定，为企业提供一体化的语音解决方案。</p>
+              <a href="javascript:;">了解更多 ></a>
+            </div>
+            <div>
+              <div>
+                <img src="./image/index/communication.jpg" alt="">
+              </div>
+              <span>短信通讯解决方案</span>
+              <p>针对企业各短信使用场景的特性提供三网覆盖、99%到达率、个性化的解决方案。</p>
+              <a href="javascript:;">了解更多 ></a>
+            </div>
+            <div>
+              <div>
+                <img src="./image/index/marketing.jpg" alt="">
+              </div>
+              <span>云流营销云</span>
+              <p>多元触达方式、数据服务、营销工具，解决营销、获客、唤醒等业务诉求，让营销更精准有效。</p>
+              <a href="javascript:;">了解更多 ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hexin">
+        <div>
+          <h1>核心优势</h1>
+          <div>
+            <ul>
+              <li>标签页</li>
+              <li>标签页</li>
+              <li>标签页</li>
+              <li>标签页</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    new WOW().init(); 
+  </script>
+  <script>
+    var arr = ["index", "call", "sounds", "message", "private", "marketing", "gratis", "jishu", "about"];
+    var a = document.querySelectorAll(".container>div:nth-child(1)>div>ul>li>a")
+    for (var i = 0; i < a.length; i++) {
+      if (window.location.pathname.indexOf(arr[i]) !== -1) {
+        a[i].className = "active" + " " + "hoverA"
+      }
+    }
+    window.onscroll = function () {
+      var div = document.querySelectorAll(".container>div:nth-child(1)")
+      var logo = document.querySelectorAll(".container>div:nth-child(1)>div>.logo")
+      var a = document.querySelectorAll(".container>div:nth-child(1)>div>ul>li>a")
+      if (document.documentElement.scrollTop === 0) {
+        for (var i = 0; i < div.length; i++) {
+          div[i].style.background = "transparent"
+          logo[i].style.backgroundImage = "url(../image/logo.png)"
+        }
+        for (var p = 0; p < a.length; p++) {
+          a[p].className = "hoverA"
+        }
+        var arr = ["index", "call", "sounds", "message", "private", "marketing", "gratis", "jishu", "about"];
+        var a = document.querySelectorAll(".container>div:nth-child(1)>div>ul>li>a")
+        for (var i = 0; i < a.length; i++) {
+          if (window.location.pathname.indexOf(arr[i]) !== -1) {
+            a[i].className = "active" + " " + "hoverA"
+          }
+        }
+      } else if (document.documentElement.scrollTop > 0) {
+        for (var i = 0; i < div.length; i++) {
+          div[i].style.background = "white"
+          logo[i].style.backgroundImage = "url(../image/logo-inner.png)"
+        }
+        for (var p = 0; p < a.length; p++) {
+          a[p].className = "hoverB"
+        }
+        var arr = ["index", "call", "sounds", "message", "private", "marketing", "gratis", "jishu", "about"];
+        var a = document.querySelectorAll(".container>div:nth-child(1)>div>ul>li>a")
+        for (var i = 0; i < a.length; i++) {
+          if (window.location.pathname.indexOf(arr[i]) !== -1) {
+            a[i].className = "active" + " " + "hoverB"
+          }
+        }
+      }
+    }
+  </script>
+</body>
+
+</html>

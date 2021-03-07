@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #f6f6f6;
+}
+.center{
+  width: 1120px;
+  margin: 0 auto;
+}
+.foot{
+  padding-bottom: 10px !important;
+}
+.banner .center .top div{
+  height: 400px !important;
+  padding: 0 0 80px 0;
+}
+.banner .center .top div p{
+  margin: 195px auto 0 auto;
+  font-size: 36px;
+  width: 288px;
+}
+.banner .center .top div span{
+  width: 420px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  margin: 40px auto;
+}
+.mianfei{
+  padding: 0 0 100px 0;
+}
+.mianfei>.center>h1{
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  font-size: 36px;
+  margin: 110px 0 60px 0;
+}
+.mianfei>.center>div{
+  width: 90%;
+  margin: 0 auto;
+}
+.mianfei>.center>div>div{
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  align-items: center;
+  margin: 26px auto;
+  background: #fff;
+  width: 90%;
+  padding: 16px 45px;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.mianfei>.center>div>div:hover{
+  color: #0072ff;
+  box-shadow: 0 0 5px 2px #e3e3e3;
+  transition: 0.5s;
+  transform: scale(1.02);
+}
+.mianfei>.center>div>div>div{
+  width: 200px;
+}
+.mianfei>.center>div>div>div>span{
+  font-size: 20px;
+  font-weight: 600;
+}
+.mianfei>.center>div>div>div>p{
+  line-height: 46px;
+  font-size: 16px;
+}
+.mianfei>.center>div>div>div>img{
+  display: block;
+  margin: 0 0 0 40px;
+  width: 165px;
+}
+.mianfei>.center>div>div>div:nth-child(2){
+  width: 400px;
+  margin: 0 0 0 30px;
+}
+.mianfei>.center>div>div>a{
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 32px;
+  line-height: 32px;
+  color: #ececec;
+  text-align: center;
+  font-size: 14px;
+  background-color: #0072ff;
+}
+.banner .center .top .logo {
+  position: fixed;
+  z-index: 9999;
+  left: 0%;
+}
+
+.banner .center .top ul,
+.banner .center .top .logo {
+  top: 0%;
+}
+
+.banner .center .top ul {
+  position: fixed;
+  z-index: 99999;
+  right: 0%;
+}
+#communicate{
+  display: none;
+}

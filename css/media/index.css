@@ -1,0 +1,340 @@
+@media screen and (max-width:1120px){
+  h1{
+    font: 500 25px "微软雅黑";
+    text-align: center;
+    display: block;
+    padding: 0;
+    margin: 15px 0;
+  }
+  h3{
+    font: 400 22px "微软雅黑";
+  }
+  a{
+    font: 400 14px "微软雅黑";
+  }
+  p{
+    font: 400 14px "微软雅黑";
+  }
+  span{
+    font: 400 16px "微软雅黑";
+  }
+  #d1 img{
+    width: 320px !important;
+    margin: 0 auto;
+  }
+  .banner .center .top div{
+    padding: 130px 22px 0 22px !important;
+    height: 178px !important;
+  }
+  .banner{
+    background-position: center !important;
+    background-size: auto !important;
+  }
+  .container{
+    width: 100%;
+  }
+  .container div{
+    width: 100%;
+  }
+  .container div .center{
+    width: 100%;
+  }
+  .peripheral2 .center .hot{
+    width: 90%;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+  }
+  .peripheral2 .center .hot .item{
+    width: 50%;
+    margin: 25px 0 0 0;
+  }
+  .peripheral2 .center .hot .item:nth-child(2){
+    padding: 0 0 12px 0;
+  }
+  .peripheral2 .center .hot .item:nth-child(1) >span{
+    margin-top: 4px;
+  }
+  .peripheral2 .center .hot .item:nth-child(1)>img{
+    width: 128px;
+    height: 128px;
+  }
+  .peripheral2 .center .hot .item:nth-child(3)>img{
+    width: 128px;
+    height: 128px;
+  }
+  .peripheral2 .center .hot .item:nth-child(3)>span{
+    margin-top: 14px;
+  }
+  .peripheral2 .center .hot .item:nth-child(4){
+    padding:  0 0 2px 0;
+  }
+  .peripheral2 .center .hot .item>img{
+    width: 128px;
+  }
+  .peripheral2 .center .hot p{
+    font-size: 14px;
+    padding: 0 15px;
+  }
+  .peripheral2 .center .hot a {
+    display: block;
+    width: 110px;
+    height: 12px;
+    text-align: center;
+    color: white;
+    background-color: #0072ff;
+    font-size: 14px;
+    line-height: 12px;
+    padding: 12px;
+  }
+  .peripheral2 .center .hot .item span{
+    margin-top: 14px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  #tab .show img{
+    width: 300px;
+    margin: 0 auto;
+  }
+  #tab .show{
+    margin: 20px 0 0 0;
+  }
+  .peripheral2 .center h1{
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px 0;
+  }
+  .peripheral3 .center h1{
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px 0;
+  }
+  .peripheral3 .center div ul{
+    margin: 20px;
+  }
+  .peripheral3 .center div ul li{
+    padding: 0;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .peripheral3 .center div ul .active,
+  .peripheral3 .center div ul li:hover{
+    border-bottom: 2px solid #0072ff;
+  }
+  .peripheral3 .center div div p{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .peripheral3 .center div div a{
+    margin: 0 auto;
+  }
+  .container > .peripheral4{
+    padding-bottom: 100px;
+  }
+  .peripheral4 .center h1{
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px 0;
+  }
+  .peripheral4 .center .gaoxiao div > span{
+    font-size: 20px;
+    text-align: center;
+    width: 44px;
+  }
+  .peripheral4 .center .gaoxiao >div:nth-child(1) > span{
+    width: unset;
+    padding: 0;
+  }
+  .peripheral4 .center .gaoxiao >div:nth-child(2) > span{
+    width: 35px;
+    padding: 0;
+  }
+  .peripheral4 .center .gaoxiao >div:nth-child(3) > .counter{
+    width: 24px;
+    padding: 0;
+  }
+  .peripheral4 .center .gaoxiao >div:nth-child(4) > span{
+    width: 35px;
+    padding: 0;
+  }
+  .peripheral4 .center .gaoxiao >div:nth-child(2) > .counter{
+    width: 22px;
+  }
+  .peripheral4 .center .gaoxiao >div:nth-child(4) > .counter{
+    width: 34px;
+  }
+  .peripheral4 .center .gaoxiao >div:nth-child(1) > span::after{
+    line-height: 65px;
+    font-size: 25px;
+  }
+  .peripheral4 .center .gaoxiao >div:nth-child(2) > span::after{
+    line-height: 65px;
+    font-size: 25px;
+  }
+  .peripheral4 .center .gaoxiao >div:nth-child(3) > span::after{
+    line-height: 65px;
+    font-size: 25px;
+  }
+  .peripheral4 .center .gaoxiao >div:nth-child(4) > span::after{
+    line-height: 65px;
+    font-size: 25px;
+  }
+  .peripheral4 .center .gaoxiao div > p{
+    text-align: center;
+  }
+  .peripheral4 .center .gaoxiao{
+    height: unset;
+    width: 100%;
+    margin: 38px auto 0;
+  }
+  .peripheral4 .center .gaoxiao div{
+    width: 50%;
+    margin: 20px auto;
+  }
+  .peripheral4 .center .gaoxiao div > p::before{
+    display: none;
+  }
+  .container > .peripheral5{
+    padding: 0 0 32px 0;
+  }
+  .peripheral5 > .center > div{
+    flex-wrap: wrap;
+  }
+  .peripheral5 > .center > div .title{
+    width: 74%;
+    padding: 0 30px;
+    text-align: left;
+    text-align: justify;
+    margin: 0 auto;
+    text-indent: 25px;
+  }
+  .peripheral5 > .center > div>div:nth-child(3){
+    display: none;
+  }
+  .peripheral5 > .center > div .title p{
+    line-height: 25px;
+  }
+  .peripheral5 > .center > div > .media{
+    display: flex;
+  }
+  .peripheral5 > .center > div > .media>div>img{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .peripheral5 > .center > div > .media>div>img:hover,
+  .peripheral5 > .center > div > .media >.small>div>img:hover{
+    transition: 1s;
+    transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -o-transform: scale(1.4);
+  }
+  .peripheral5 > .center > div > .media>div{
+    width: 94%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .peripheral5 > .center > div > .media >.small{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+  }
+  .peripheral5 > .center > div > .media >.small>div{
+    width: 114px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .peripheral5 > .center > div > .media >.small>div>img{
+    width: 114px;
+    margin: 0 auto;
+  }
+  .peripheral5 > .center > div > .title:nth-child(1) + div img{
+    width: 100%;
+  }
+  .peripheral5 > .center > div > .title:nth-child(1) + div > .small:nth-child(2){
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .peripheral5 > .center > div > .title:nth-child(1) + div > .small img{
+    width: 200px;
+    margin: 22px auto;
+    display: block;
+  }
+  .peripheral5 > .center > div > .title:nth-child(1) div img{
+    width: 100%;
+  }
+  .container > .peripheral6{
+    height: auto;
+    padding-bottom: 100px;
+  }
+  .peripheral6 > .center > h1 {
+    padding: 25px 0;
+  }
+  .peripheral6 > .center > h1 + div .lunbo{
+    display: none;
+  }
+  .peripheral6 > .center > h1 + div .lunbo + div{
+    width: 90%;
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: center;
+  }
+  .peripheral6 > .center > h1 + div .lunbo + div > img{
+    margin: 3%;
+    width: 130px;
+  }
+  .container > .peripheral7{
+    padding-bottom: 0;
+  }
+  .peripheral7 > .center > div{
+    flex-wrap: wrap;
+    width: unset;
+    height: unset;
+    padding: 39px 0 0 0;
+  }
+  .peripheral7 > .center > div > .news{
+    width: 70%;
+    margin: 25px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .peripheral7 > .center > div > .news>img{
+    width: 200px;
+  }
+  .peripheral7 > .center > .zhuce{
+    padding: 0;
+  }
+  .peripheral7 > .center .zhuce > .zhuce1{
+    padding: 37px 26px 110px 26px;
+  }
+  .peripheral7 > .center > div > .news >p, .peripheral7 > .center > div > .news >span{
+    display: block;
+    margin: 0 auto;
+  }
+  .peripheral7 > .center > .btn_more{
+    margin: 28px auto 42px;
+  }
+  .peripheral7 > .center .zhuce > .zhuce1>h3{
+    font-size: 30px;
+  }
+  .peripheral7 > .center > .zhuce > div > a{
+    margin: 40px auto 0 auto;
+  }
+  .banner .center .top button {
+    position: fixed !important;
+    top: 0% !important;
+    right: 0% !important;
+    z-index: 99999;
+  }
+
+  .banner .center .top .logo {
+    left: 0%;
+    width: 210px !important;
+    padding: 14px 100% 14px 18px !important;
+  }
+  #communicate{
+    display: block;
+  }
+}

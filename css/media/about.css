@@ -1,0 +1,124 @@
+
+@media screen and (max-width: 1120px){
+  h1{
+    font-size: 25px !important;
+    padding: 25px 0 !important;
+    margin: 25px auto !important;
+  }
+  p{
+    font-size: 14px !important;
+  }
+  .banner{
+    position: relative !important;
+  }
+  .banner .center .top div{
+    height: 330px !important;
+    padding: 0 !important;
+  }
+  #d1 p, #d1 .d1-p{
+    font-size: 25px !important;
+  }
+  #d1 p, #d1 .d1-span{
+    line-height: 26px;
+  }
+  .center{
+    width: 100%;
+  }
+  .banner .center .top div p{
+    display: block;
+    text-align: center;
+    margin: 110px auto 0 auto;
+  }
+  .banner .center .top div span{
+    width: 100%;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    margin: 52px auto 0 auto;
+  }
+  .xuanze {
+    background-position: 0 center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 0 118px 0;
+}
+  .xuanze>.center>div{
+    width: 90%;
+    margin: 162px auto -100px auto;
+  }
+  .xuanze>.center>div>div{
+    width: 50%;
+    margin: 15px auto;
+    text-align: center;
+  }
+  .xuanze>.center>div>div>span:nth-child(3){
+    font-size: 24px;
+  }
+  .xuanze>.center>div>div>span:nth-child(2){
+    font-size: 24px;
+  }
+  .guanyu>.center>div{
+    text-align: justify;
+  }
+  .guanyu>.center>div>div:nth-child(2){
+    display: none;
+  }
+  .guanyu>.center>div>div:nth-child(2)>img{
+    display: none;
+  }
+  .guanyu>.center>div>div:nth-child(1){
+    width: 100%;
+  }
+  .guanyu>.center>div>div>p{
+    text-indent: 28px;
+    width: 100%;
+    margin: 10px auto;
+    font-size: 15px;
+  }
+  .guanyu>.center>h1,
+  .xuanze>.center>h1,
+  .lianxi>.center>h1{
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    font-size: 25px;
+    padding: 0 !important;
+    margin: 80px 0 40px 0;
+}
+  .lianxi>.center>div>div:nth-child(1)>img{
+    width: 320px;
+  }
+  .lianxi{
+    padding: 0;
+  }
+  .lianxi>.center>div>div:nth-child(2) {
+    width: 90%;
+    padding: 0;
+    margin: 32px auto;
+  } 
+  .lianxi>.center>div>div:nth-child(2)>h3{
+    text-align: center;
+    font-size: 20px;
+  }
+  .collaborate>.center>div{
+    width: 90%;
+  }
+  .collaborate>.center>div>img{
+    width: 113px;
+  }
+  .banner .center .top button {
+    position: fixed !important;
+    top: 0% !important;
+    right: 0% !important;
+    z-index: 99999;
+  }
+
+  .banner .center .top .logo {
+    left: 0%;
+    width: 210px !important;
+    padding: 14px 100% 14px 18px !important;
+  }
+  #communicate{
+    display: block;
+  }
+}

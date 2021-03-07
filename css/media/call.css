@@ -1,0 +1,183 @@
+@media screen and (max-width: 1120px){
+  h1{
+    font-size: 25px !important;
+    padding: 25px 0 !important;
+    margin: 0 auto !important;
+  }
+  p{
+    font-size: 14px !important;
+  }
+  .banner{
+    position: relative !important;
+  }
+  .banner .center .top div{
+    height: 335px !important;
+    padding:  0px 50px 10px 25px !important;
+  }
+  #d1 a{
+    margin: 28px 0 !important;
+  }
+  #d1 p, #d1 .d1-p{
+    font-size: 25px !important;
+    line-height: 42px;
+  }
+  #d1 p{
+    margin: 65px 0 -42px 0px;
+  }
+  #d1 .d1-span{
+    line-height: 26px;
+    margin: 60px 0 0 0;
+  }
+  #d1 .d1-span{
+    width: 255px;
+    font-size: 14px;
+  }
+  .center{
+    width: 100%;
+  }
+  .guanli{
+    padding: 0 0 50px 0;
+  }
+  .guanli>.center>h1{
+    width: 100%;
+    display: inline-block;
+    font-size: 34px;
+    font-weight: 400;
+    text-align: center;
+    margin: 25px auto;
+  }
+  .guanli>.center>p{
+    width: 80%;
+    line-height: 26px;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+  .guanli>.center>div{
+    margin: 50px auto;
+    width: 100%;
+  }
+  .guanli>.center>div>div{
+    width: 127px;
+    margin:10px 30px;
+  }
+  .guanli>.center>div>div p{
+    font-size: 16px;
+    text-align: center;
+  }
+  .pingtai{
+    padding: 0 0 50px 0;
+  }
+  .pingtai>.center>h1{
+    width: 100%;
+    display: inline-block;
+    font-size: 34px;
+    font-weight: 400;
+    text-align: center;
+    margin: 150px 0 30px 0;
+  }
+  .pingtai>.center>p{
+    width: 80%;
+    line-height: 26px;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+  .kaifa{
+    padding: 0 0 50px 0;
+  }
+  .kaifa>.center>div>div{
+    width: 140px;
+  }
+  .kaifa>.center>div>div>img{
+    width: 40%;
+  }
+  .kaifa>.center>div{
+    width: 94%;
+  }
+  .kaifa>.center>p{
+    width: 80%;
+    line-height: 26px;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+  .kaifa>.center>h1{
+    width: 100%;
+    display: inline-block;
+    font-size: 34px;
+    font-weight: 400;
+    text-align: center;
+    margin: 100px 0 30px 0;
+  }
+  .ivr{
+    padding: 0 0 50px 0;
+  }
+  .ivr>.center>h1{
+    width: 100%;
+    display: inline-block;
+    font-size: 34px;
+    font-weight: 400;
+    text-align: center;
+    margin: 100px 0 30px 0;
+  }
+  .ivr>.center>p{
+    width: 80%;
+    line-height: 26px;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+  .ivr>.center>img{
+    max-width: 25px auto;
+  }
+  .collaborate{
+    padding: 0 0 50px 0;
+  }
+  .collaborate>.center>h1{
+    width: 100%;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 auto !important;
+  }
+  .collaborate>.center>p{
+    width: 80%;
+    margin: 25px auto;
+    line-height: 30px;
+    text-align: center;
+  }
+  .collaborate>.center>div{
+    width: 355px;
+    margin: 0 auto;
+  }
+  .collaborate>.center>div>img{
+    width: 113px;
+    margin: 0px !important;
+  }
+  .xinyidai{
+    padding: 0 0 50px 0;
+  }
+  .xinyidai>.center>h1{
+    width: 88%;
+    margin: 0px auto !important;
+    display: block;
+    font-weight: 400;
+    text-align: center;
+    text-indent: 25px;
+  }
+  .xinyidai>.center>a{
+    margin: 0 auto;
+  }
+  .banner .center .top button {
+    position: fixed !important;
+    top: 0% !important;
+    right: 0% !important;
+    z-index: 99999;
+  }
+
+  .banner .center .top .logo {
+    left: 0%;
+    width: 210px !important;
+    padding: 14px 100% 14px 18px !important;
+  }
+  #communicate{
+    display: block;
+  }
+}

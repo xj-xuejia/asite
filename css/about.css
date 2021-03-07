@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.center{
+  width: 1120px;
+  margin: 0 auto;
+}
+.foot{
+  padding-bottom: 10px !important;
+}
+.banner .center .top div p{
+  margin: 195px 0 0 100px;
+  font-size: 36px;
+}
+.banner .center .top div{
+  height: 400px !important;
+  padding: 0 0 80px 0;
+}
+.banner .center .top div span{
+  width: 410px;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: justify;
+  margin: 30px 0 30px 100px;
+}
+.guanyu{
+  padding: 0 0 50px 0;
+}
+.guanyu>.center>h1{
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  font-size: 36px;
+  margin: 110px 0 60px 0;
+}
+.guanyu>.center>div{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  justify-content: space-between;
+}
+.guanyu>.center>div>div:nth-child(1){
+  width: 62%;
+}
+.guanyu>.center>div>div>p{
+  font-size: 14px;
+  line-height: 32px;
+  margin: 20px 0;
+}
+.guanyu>.center>div>div:nth-child(2){
+  width: 33%;
+}
+.guanyu>.center>div>div:nth-child(2)>img{
+  width: 334px;
+  margin: 35px 0;
+  cursor: pointer;
+}
+.guanyu>.center>div>div:nth-child(2)>img:hover,
+.guanyu>.center>div>div:nth-child(2)>img:active{
+  transition: 1s;
+  transform: scale(1.1);
+}
+.xuanze{
+  background-image: url(../image/about/xuanzewomen.jpg);
+  background-position: -126px center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 0 100px 0;
+}
+.xuanze>.center>h1,.xuanze>.center>p{
+  text-align: center;
+}
+.xuanze>.center>h1{
+  width: 100%;
+  display: inline-block;
+  font-size: 36px;
+  text-align: center;
+  margin: 110px 0 60px 0;
+}
+.xuanze>.center>p{
+  margin: 0 auto;
+  color: #898888;
+}
+.xuanze>.center>div{
+  width: 80%;
+  margin: 466px auto 0px auto;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  justify-content: space-between;
+}
+.xuanze>.center>div>div>span:nth-child(1){
+  font-size: 14px;
+  display: block;
+}
+.xuanze>.center>div>div>span:nth-child(2){
+  font-size: 36px;
+  font-weight: 600;
+  color: #0072ff;
+  cursor: pointer;
+}
+.xuanze>.center>div>div>span:nth-child(3){
+  font-size: 36px;
+  font-weight: 600;
+  color: #0072ff;
+  cursor: pointer;
+}
+.lianxi{
+  background-color: #fff;
+  padding: 0 0 100px 0;
+}
+.lianxi>.center>h1{
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  font-size: 36px;
+  margin: 110px 0 60px 0;
+}
+.lianxi>.center>div{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  justify-content: space-around;
+}
+.lianxi>.center>div>div:nth-child(1)>img{
+  width: 500px;
+}
+.lianxi>.center>div>div:nth-child(2)>p>img{
+  vertical-align: middle;
+  margin: 0 8px 0 0;
+}
+.lianxi>.center>div>div:nth-child(2){
+  padding: 42px;
+}
+.lianxi>.center>div>div:nth-child(2)>p{
+  margin: 22px 0;
+  font-size: 14px;
+}
+.banner .center .top .logo {
+  position: fixed;
+  z-index: 9999;
+  left: 0%;
+}
+
+.banner .center .top ul,
+.banner .center .top .logo {
+  top: 0%;
+}
+
+.banner .center .top ul {
+  position: fixed;
+  z-index: 99999;
+  right: 0%;
+}
+#communicate{
+  display: none;
+}

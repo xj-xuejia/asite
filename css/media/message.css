@@ -1,0 +1,152 @@
+
+@media screen and (max-width: 1120px){
+  body{
+    background-color: #fff !important;
+  }
+  h1{
+    font-size: 25px !important;
+    padding: 25px 0 !important;
+    margin: 25px auto !important;
+  }
+  p{
+    font-size: 14px !important;
+  }
+  .banner{
+    position: relative !important;
+  }
+  .banner .center .top div{
+    padding: 0 !important;
+  }
+  #d1 a{
+    margin: 78px 0 10px 48px !important;
+  }
+  #d1 .d1-a1{
+    margin: 42px 0 0 180px !important;
+  }
+  .d1-span2{
+    position: unset !important;
+    display: block;
+    width: auto;
+    color: #dadada !important;
+    top: unset !important;
+    left: unset !important;
+    line-height: 45px;
+    margin: -115px 0 10px 48px !important;
+  }
+  #d1 p, #d1 .d1-p{
+    margin: 88px 0 0 48px  !important;
+    font-size: 25px !important;
+  }
+  #d1 p, #d1 .d1-span{
+    line-height: 26px;
+    margin: 20px 0 0 48px;
+    padding: 0 90px 0 0;
+  }
+  .banner .center .top div p{
+    margin: 52px 0 0 48px  !important;
+  }
+  .banner .center .top div{
+    height: 335px !important;
+  }
+  .banner .center .top div span{
+    width: auto;
+  }
+  .center{
+    width: 100%;
+  }
+  .youshi{
+    padding: 0 0 60px 0;
+  }
+  .youshi>.center>h1{
+    width: 100%;
+    display: inline-block;
+    font-size: 38px;
+    font-weight: 400;
+    text-align: center;
+    margin: 110px 0 30px 0;
+  }
+  .youshi>.center>div{
+    width: 94%;
+    margin: 0 auto;
+    height: unset;
+  }
+  .youshi-tb{
+    width: 100%;
+    display: block;
+  }
+  .youshi>.center>div>ul{
+    display: none;
+  }
+  .jiage>.center>div{
+    width: unset;
+    height: 306px;
+    margin: 15px auto;
+  }
+  .jiage>.center>div>img{
+    margin: 0 auto;
+  }
+  .jiage>.center>div>span{
+    font-size: 16px;
+  }
+  .jiage>.center>div>div>.xuqiu, .jiage>.center>div>div>.xuqiu>span{
+    display: block;
+  }
+  .jiage>.center>div>div>.xuqiu, .jiage>.center>div>div>.xuqiu>span{
+    font-size: 15px;
+  }
+  .jiage>.center>div>div{
+    margin: -13px 0 0 0;
+  }
+  .jiage>.center>div>div>a{
+    margin: 0 auto;
+  }
+  .jiage>.center>div>div>p>span{
+    font-size: 26px;
+  }
+  .kaifa>.center>div{
+    margin: 0;
+  }
+  .kaifa>.center>div>div{
+    margin: 24px 0;
+  }
+  .xinyidai>.center>h1{
+    width: 96%;
+    display: block;
+    font-size: 33px;
+    margin: 0 auto 30px auto !important;
+    padding: 40px 0 0 0 !important;
+  }
+  .xinyidai>.center>a{
+    width: 120px;
+    height: 32px;
+    line-height: 32px;
+  }
+  .collaborate>.center>div{
+    width: 355px;
+    margin: 0 auto;
+  }
+  .collaborate>.center>div>img{
+    width: 113px;
+    margin: 0px !important;
+  }
+  .collaborate>.center>h1{
+    width: 80%;
+    display: block;
+    padding: 25px !important;
+  }
+  .banner .center .top button {
+    position: fixed !important;
+    top: 0% !important;
+    right: 0% !important;
+    z-index: 99999;
+  }
+
+  .banner .center .top .logo {
+    left: 0%;
+    width: 210px !important;
+    padding: 14px 100% 14px 18px !important;
+  }
+  #communicate{
+    display: block;
+  }
+}

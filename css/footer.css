@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  font-size: 14px;
+}
+.foot{
+  width: 100%;
+  padding-bottom: 50px;
+  background-color: #3b3b3b;
+}
+.foot div{
+  width: 1120px;
+  margin: 0 auto;
+}
+.foot div .top{
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.foot div .top li{
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  align-items: center;
+}
+.foot div .top li:not(.foot div .top li:nth-child(1))::before{
+  content: "";
+  padding: 12px 0;
+  margin-right: 140px;
+  border-left: 2px solid #585858;
+}
+.foot div .top li span{
+  color: white;
+  margin-left: 10px;
+}
+.foot div .center{
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-top: 2px solid #585858;
+  border-bottom: 2px solid #585858;
+}
+.foot div .center li a{
+  display: block;
+  width: 150px;
+  height: 36px;
+  color: white;
+  line-height: 36px;
+  text-align: center;
+  background-color: #0072ff;
+  border-radius: 50px;
+}
+.foot div .center li>img{
+  width: 230px;
+}
+.foot div .bottom{
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.foot div .bottom li a{
+  color: white;
+}
+.foot div .bottom li:not(.foot div .bottom li:nth-child(1))::before{
+  content: "";
+  margin-right: 28px;
+  border-left: 2px solid #585858;
+}
+.address{
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  align-items: center;
+  justify-content: space-between;
+}
+.address div{
+  width: 1120px;
+  color: white;
+  margin: 0 auto;
+}
+.address div div{
+  width: 800px;
+  color: white;
+  margin: 0;
+}
+.address div div span{
+ line-height: 46px;
+}
+.address .code{
+  width: 200px;
+}
+.address .code .QR_code{
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+.address .code p{
+  line-height: 42px;
+  text-align: center;
+}

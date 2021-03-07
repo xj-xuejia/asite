@@ -1,0 +1,380 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.center{
+  width: 1120px;
+  margin: 0 auto;
+}
+.foot{
+  padding-bottom: 10px !important;
+}
+.banner .center .top div span{
+  width: 410px;
+  line-height: 30px;
+  text-align: justify;
+  margin: 30px 0 30px 100px;
+}
+.banner .center .top div a{
+  margin: 35px 0 0 100px;
+}
+.banner .center .top div img{
+  width: 368px !important;
+  padding: 0 !important;
+  margin: -210px 0 0 682px !important;
+}
+.banner .center .top div img:hover{
+  transition: 1s;
+  transform: scale(1.1);
+}
+.banner .center .top div p{
+  margin: 148px 0 0 100px;
+  font-size: 36px;
+}
+.banner .center .top div{
+  height: 400px !important;
+  padding: 0 0 80px 0;
+}
+.d1-a1{
+  display: none;
+  width: 120px;
+  height: 32px;
+  background-color: transparent;
+  text-decoration: none;
+  line-height: 32px;
+  text-align: center;
+  color: white;
+  background-color: unset !important;
+  margin: -33px 0px 0 245px !important;
+  border: 1px solid white;
+}
+.youshi{
+  padding: 0 0 70px 0;
+}
+.youshi>.center>h1,.youshi>.center>p{
+  text-align: center;
+}
+.youshi>.center>h1{
+  width: 100%;
+  display: inline-block;
+  font-size: 36px;
+  margin: 110px 0 60px 0;
+}
+.youshi>.center>p{
+  margin: 0 auto 60px auto;
+  color: #898888;
+}
+.youshi>.center>div{
+  width: 700px;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  margin: 70px auto;
+}
+.youshi>.center>div>div{
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  flex-wrap: wrap;
+}
+.youshi>.center>div>div>.item{
+  width: 182px;
+  text-align: center;
+  padding: 6px 20px;
+}
+.youshi>.center>div>div>.item:hover,
+.youshi>.center>div>div>.item:active{
+  transition: 0.5s;
+  transform: scale(1.1);
+  color: #0072ff !important;
+}
+.youshi>.center>div>div>.item>span{
+  display: block;
+  font-weight: 600;
+}
+.youshi>.center>div>div>.item>p{
+  font-size: 13px;
+  margin: 20px 0;
+  line-height: 24px;
+}
+.youshi>.center>div>.pic>img{
+  width: 255px;
+  margin: -55px;
+}
+.youshi>.center>div>.pic>img:hover,
+.youshi>.center>div>.pic>img:active{
+  transition: 1s;
+  transform: scale(1.1);
+}
+.yingyong{
+  background-image: url(../image/private/scene.jpg);
+  background-position:0 center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 0 100px 0;
+}
+.yingyong>.center>h1,.yingyong>.center>p{
+  text-align: center;
+}
+.yingyong>.center>h1{
+  width: 100%;
+  display: inline-block;
+  font-size: 36px;
+  margin: 110px 0 60px 0;
+}
+.yingyong>.center>p{
+  margin: 0 auto 60px auto;
+  color: #898888;
+}
+.yingyong>.center>div{
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 935px;
+}
+.yingyong>.center>div>div{
+  width: 220px;
+  height: 300px;
+  box-shadow: 0 0 18px 2px #d3d3d3;
+}
+.yingyong>.center>div>div:hover,
+.yingyong>.center>div>div:active{
+  transition: 0.5s;
+  transform: scale(1.08);
+  color: #0072ff !important;
+}
+.yingyong>.center>div>:nth-child(1),
+.yingyong>.center>div>:nth-child(2),
+.yingyong>.center>div>:nth-child(3),
+.yingyong>.center>div>:nth-child(4){
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.yingyong>.center>div>:nth-child(1){
+  background-image: url(../image/private/travel-out.jpg);
+}
+.yingyong>.center>div>:nth-child(2){
+  background-image: url(../image/private/logistics-out.jpg);
+}
+.yingyong>.center>div>:nth-child(3){
+  background-image: url(../image/private/match-up-out.jpg);
+}
+.yingyong>.center>div>:nth-child(4){
+  background-image: url(../image/private/O2O-out.jpg);
+}
+.yingyong>.center>div>:nth-child(1):hover,
+.yingyong>.center>div>:nth-child(1):active{
+  background-image: url(../image/private/travel.jpg);
+}
+.yingyong>.center>div>:nth-child(2):hover,
+.yingyong>.center>div>:nth-child(2):active{
+  background-image: url(../image/private/logistics.jpg);
+}
+.yingyong>.center>div>:nth-child(3):hover,
+.yingyong>.center>div>:nth-child(3):active{
+  background-image: url(../image/private/match-up.jpg);
+}
+.yingyong>.center>div>:nth-child(4):hover,
+.yingyong>.center>div>:nth-child(4):active{
+  background-image: url(../image/private/O2O.jpg);
+}
+.yingyong>.center>div>div>img{
+  display: block;
+  margin: 0 auto;
+  padding: 26px 70px;
+}
+.yingyong>.center>div>div>div{
+  background-color: #fff;
+  padding: 18px;
+  height: 44%;
+}
+.yingyong>.center>div>div>div>span{
+  font-weight: 600;
+  display: block;
+  margin: 0 0 15px 0;
+}
+.yingyong>.center>div>div>div>p{
+  font-size: 14px;
+  line-height: 20px;
+}
+.yinsi{
+  background-image: url(../image/private/privacy-protection.jpg);
+  background-position:0 center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 0 100px 0;
+}
+.yinsi>.center>h1,.yinsi>.center>p{
+  text-align: center;
+}
+.yinsi>.center>h1{
+  color: #fff;
+  width: 100%;
+  display: inline-block;
+  font-size: 36px;
+  margin: 110px 0 60px 0;
+}
+.yinsi>.center>p{
+  margin: 0 auto 80px auto;
+  color: #b1b1b1;
+}
+.yinsi>.center>div{
+  width: 600px;
+  height: 280px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 12px;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+}
+.yinsi>.center>div>div>span:nth-child(1){
+  font-weight: 600;
+}
+.yinsi>.center>div>div:nth-child(1){
+  width: 50%;
+  text-align: center;
+  border-right: 1px solid #c9c9c9;
+}
+.yinsi>.center>div>div:nth-child(1)>span{
+  display: block;
+  font-size: 18px;
+  margin: 25px auto;
+}
+.yinsi>.center>div>div:nth-child(1)>.logo{
+  width: 62px;
+  margin: 44px auto;
+  cursor: pointer;
+}
+.yinsi>.center>div>div:nth-child(1)>.logo:hover,
+.yinsi>.center>div>div:nth-child(1)>.logo:active{
+  transition: 1s;
+  transform: scale(1.1);
+}
+.yinsi>.center>div>div:nth-child(1)>h1{
+ font-size: 32px; 
+}
+.yinsi>.center>div>div:nth-child(2){
+  width: 50%;
+  border-left: 1px solid #c9c9c9;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.yinsi>.center>div>div:nth-child(2)>span{
+  display: block;
+  font-size: 18px;
+  margin: 25px auto;
+}
+.yinsi>.center>div>:nth-child(2)>span:nth-child(3){
+  font-size: 16px;
+  color: #0072ff;
+  margin: 30 auto;
+}
+.yinsi>.center>div>div:nth-child(2)>p{
+  font-size: 15px;
+  margin: 60px 0 -21px 0px;
+}
+.yinsi>.center>div>div>a{
+  display: block;
+  width: 100px;
+  height: 32px;
+  text-align: center;
+  color: #fff;
+  line-height: 32px;
+  font-size: 14px;
+  border-radius: 2px;
+  margin: 44px auto;
+  background-color: #0072ff;
+}
+.collaborate{
+  background-image: url(../image/customer_bg.jpg);
+  background-position:0 center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 0 100px 0;
+}
+.collaborate>.center>h1{
+  width: 100%;
+  display: inline-block;
+  font-size: 36px;
+  margin: 110px 0 60px 0;
+  text-align: center;
+}
+.collaborate>.center>p{
+  text-align: center;
+  margin: 0 auto 60px auto;
+  color: #898888;
+}
+.collaborate>.center>div{
+  width: 84%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.collaborate>.center>div>img{
+  width: 155px;
+  margin: -3px;
+  cursor: pointer;
+  border: 1px solid #d3d3d3;
+}
+.collaborate>.center>div>img:hover,
+.collaborate>.center>div>img:active{
+  transition: 1s;
+  transform: scale(1.08);
+}
+.xinyidai{
+  background-image: url(../image/private/lianxikefu.jpg);
+  background-position:0 center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 0 60px 0;
+}
+.xinyidai>.center>h1{
+  color: white;
+  width: 100%;
+  display: inline-block;
+  font-size: 36px;
+  font-weight: 600;
+  margin: 110px 0 60px 0;
+  text-align: center;
+}
+.xinyidai>.center>p{
+  color: #d3d3d3;
+  width: 558px;
+  margin: 0 auto;
+  font-size: 17px;
+  line-height: 30px;
+  text-align: center;
+}
+.xinyidai>.center>a{
+  display: block;
+  width: 100px;
+  height: 32px;
+  background-color: #0072ff;
+  text-decoration: none;
+  line-height: 32px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  margin: 60px auto 40px;
+}
+.banner .center .top .logo {
+  position: fixed;
+  z-index: 9999;
+  left: 0%;
+}
+
+.banner .center .top ul,
+.banner .center .top .logo {
+  top: 0%;
+}
+
+.banner .center .top ul {
+  position: fixed;
+  z-index: 99999;
+  right: 0%;
+}
+#communicate{
+  display: none;
+}

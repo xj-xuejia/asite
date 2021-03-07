@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="cn">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="renderer" content="webkit" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name=" force-rendering" content="webkit" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <link rel="shortcut icon" href="../image/ast.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./css/page/animate.css">
+  <link rel="stylesheet" href="./css/about.css">
+  <link rel="stylesheet" href="./css/media/about.css">
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/wow.js"></script>
+  <script src="./js/header.js"></script>
+  <script src="./js/jquery.waypoints.min.js"></script>
+  <script src="./js/jquery.countup.min.js"></script>
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/media/header.css">
+  <link rel="stylesheet" href="../fonts/iconfont.css">
+  <title>关于我们</title>
+</head>
+
+<body>
+  <div id="header"></div>
+  <script type="text/javascript">
+    $('#header').load('./components/header.html', function () {
+      bannerNode(
+        { bg: "url(./image/about/guanyuwomen.jpg)" },
+        { iSrc: "./image/index/shout.jpg", iStyle: "none" },
+        { pInner: "阿斯特云开放平台", pStyle: "block" },
+        { sInner: "提供智能云通讯服务，让通讯更简单", sStyle: "block" },
+        { aHref: "javascript:;", aStyle: "none", aText: "立即下载" }
+      )
+    })
+  </script>
+  <div class="guanyu">
+    <div class="center">
+      <h1 class="wow bounceInUp">关于我们</h1>
+      <div>
+        <div class="fadeInLeftBig wow">
+          <p>郑州阿斯特网络科技有限公司，2003年成立以来从事网络通讯、系统开发、软件开发、为中国电信、中国联通、中国移动提供各种类型软硬件系统定制开发服务。</p>
+          <p>
+            郑州阿斯特网络科技有限公司，主要从事App开发和支撑App的后台服务程序开发，有点心级要求系统服务开发的经验，又有最新流行的UI设计、软件开发人才，公司采用标准开发流程与管理办法，通过SVN、Jira、Bugzilla、BitBucket等工具可实现与全国各地客户全天候协同开发、无障碍交付，迄今为止已为多家企业提供专属定制服务。
+          </p>
+          <p>我们是一群充满活力，散发着对互联网创意和热爱科技的小伙伴，对未来充满无限的创想，野心与激情。致力于APP开发+互联网的深度融合，让您的项目更接地气，落地生根。</p>
+          <p>我们拥有一支热情专业的开发团队，无论项目大小，我们都会不留余力的为您提供最优质的品质和高品质的服务，专注于精品APP应用定制研发，用户的诉求就是阿斯特的追求。</p>
+        </div>
+        <div class="fadeInRightBig wow">
+          <img src="./image/about/0AST.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="xuanze">
+    <div class="center">
+      <h1 class="wow bounceInUp">为什么选择我们</h1>
+      <p class="wow bounceInUp">通讯无国界，一点接入，通达全球</p>
+      <div>
+        <div>
+          <span>数据加入节点</span>
+          <span class="math">78</span>
+          <span>+</span>
+        </div>
+        <div>
+          <span>通讯服务能力</span>
+          <span class="math" data-counter-time="600" data-counter-delay="5">10</span>
+          <span>+</span>
+        </div>
+        <div>
+          <span>注册开发者</span>
+          <span class="math">100000</span>
+          <span>+</span>
+        </div>
+        <div>
+          <span>业务覆盖终端客户</span>
+          <span class="math" data-counter-time="100" data-counter-delay="1">2</span>
+          <span>亿+</span>
+        </div>
+      </div>
+      <script>
+        $('.math').countUp({
+          delay: 60,
+          time: 2000
+        });
+      </script>
+    </div>
+  </div>
+  <div class="lianxi">
+    <div class="center">
+      <h1 class="wow bounceInUp">联系我们</h1>
+      <div>
+        <div>
+          <img src="./image/about/map.png" alt="">
+        </div>
+        <div>
+          <h3>郑州阿斯特科技有限公司</h3>
+          <p>
+            <img src="./image/about/dianhua.png" alt="">
+            <span>电话：0371-56292998</span>
+          </p>
+          <p>
+            <img src="./image/about/shouji.png" alt="">
+            <span>手机：186-2555-3533</span>
+          </p>
+          <p>
+            <img src="./image/about/faxiaoxi.png" alt="">
+            <span>邮箱：1053660@qq.com</span>
+          </p>
+          <p>
+            <img src="./image/about/daohangdizhi.png" alt="">
+            <span>地址：郑州市金水区金成时代广场9号楼2302</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer"></div>
+  <script type="text/javascript">
+    $('#footer').load('./components/footer.html')
+  </script>
+  <div id="communicate"></div>
+  <script type="text/javascript">
+    $('#communicate').load('./components/communicate.html')
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="renderer" content="webkit" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name=" force-rendering" content="webkit" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <link rel="shortcut icon" href="../image/ast.ico" type="image/x-icon">
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/wow.js"></script>
+  <title>header</title>
+</head>
+
+<body>
+  <div class="banner">
+    <div class="center">
+      <div class="top">
+        <img src="../image/logo.png" alt="" class="logo">
+        <button onclick="lookUl()" class="btn-ul iconfont icon-ziyuan"></button>
+        <script>
+          function lookUl() {
+            var ul = document.querySelectorAll(".top ul")
+            var btn = document.getElementsByClassName("btn-ul");
+            btn.index = 0
+            for (var i = 0; i < ul.length; i++) {
+              if (ul[i].style.display === "block") {
+                ul[i].style.display = "none"
+              } else if (btn.index === 0) {
+                ul[i].style.display = "block"
+              }
+            }
+          }
+        </script>
+        <ul>
+          <li><a href="./index.html">首页</a></li>
+          <li><a href="./call.html">呼叫中心二次开发</a></li>
+          <li><a href="./sounds.html">语音/短信通知</a></li>
+          <li><a href="./message.html">短信验证</a></li>
+          <li><a href="./private.html">私密通话</a></li>
+          <li><a href="./marketing.html">企销客</a></li>
+          <li><a href="./gratis.html">免费体验</a></li>
+          <li><a href="./jishu.html">技术支持</a></li>
+          <li><a href="./about.html">关于我们</a></li>
+        </ul>
+        <script src="../js/header.js"></script>
+        <div id="d1">
+          <img class="d1-img wow bounceInUp" src="" alt="">
+          <p class="d1-p wow bounceInUp"></p>
+          <span class="d1-span wow bounceInUp"></span>
+          <a class="d1-a wow bounceInUp"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    new WOW().init(); 
+  </script>
+</body>
+
+</html>

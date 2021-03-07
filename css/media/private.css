@@ -1,0 +1,187 @@
+@media screen and (max-width: 1120px){
+  h1{
+    font-size: 25px !important;
+    padding: 25px 0 !important;
+    margin: 0px auto !important;
+  }
+  p{
+    font-size: 14px !important;
+  }
+  .banner{
+    position: relative !important;
+  }
+  .banner .center .top div{
+    height: 322px !important;
+    padding: 0 !important;
+  }
+  #d1 p, #d1 .d1-p{
+    font-size: 25px !important;
+    margin: 75px 0 0 26px;
+  }
+  #d1 p, #d1 .d1-span{
+    line-height: 26px;
+    margin: 52px 0 0 26px;
+  }
+  .d1-a1{
+    margin: -33px 0px 0 166px !important;
+  }
+  .banner .center .top div a{
+    margin: 55px 0 0 26px;
+  }
+  .banner .center .top div span{
+    margin: 0;
+    width: unset;
+  }
+  .banner .center .top div p{
+    margin: 0;
+  }
+  .center{
+    width: 100%;
+  }
+  .collaborate{
+    padding: 0 0 50px 0;
+  }
+  .collaborate>.center>h1{
+    width: 90%;
+    display: block;
+    font-size: 33px;
+    margin: 40px auto 20px auto;
+    text-align: center;
+  }
+  .collaborate>.center>p{
+    font-size: 16px;
+    margin: 0 auto 25px auto;
+  }
+  .youshi{
+    padding: 0;
+  }
+  .youshi>.center>div{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .youshi>.center>h1{
+    width: 90%;
+    display: block;
+    font-size: 33px;
+    margin: 100px auto 30px auto;
+  }
+  .youshi>.center>p{
+    width: 84%;
+    margin: 0 auto 20px auto;
+    font-size: 15px;
+  }
+  .youshi>.center>div>.pic>img{
+    display: none;
+  }
+  .youshi>.center>div>div{
+    justify-content: center;
+  }
+  .youshi>.center>div>div>.item{
+    padding: 20px;
+    width: 146px;
+  }
+  .youshi>.center>div>div>.item>span{
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .youshi>.center>div>div>.item>p{
+    font-size: 15px;
+  }
+  .yingyong{
+    padding: 0 0 50px 0;
+  }
+  .yingyong>.center>div{
+    width: 100%;
+    justify-content: center;
+  }
+  .yingyong>.center>div>div{
+    margin: 20px 0;
+  }
+  .yingyong>.center>div>div>div>span{
+    font-size: 16px;
+  }
+  .yingyong>.center>div>div>div>p{
+    font-size: 15px;
+  }
+  .yingyong>.center>h1 {
+    width: 90%;
+    display: block;
+    font-size: 33px;
+    margin: 100px auto 30px auto;
+  }
+  .yingyong>.center>p{
+    width: 90%;
+    font-size: 15px;
+    margin: 0 auto 24px auto !important;
+  }
+  .yinsi{
+    padding: 0 0 50px 0;
+  }
+  .yinsi>.center>h1{
+    font-size: 33px;
+  }
+  .yinsi>.center>div{
+    width: 90%;
+    flex-wrap: nowrap;
+  }
+  .yinsi>.center>p{
+    font-size: 15px;
+  }
+  .yinsi>.center>div>div:nth-child(2)>p{
+    padding: 0 12px;
+  }
+  .yinsi>.center>div>div:nth-child(1)>h1{
+    font-size: 22px !important;
+    margin: 0 !important;
+  }
+  .yinsi>.center>div>div:nth-child(1)>img{
+    width: 140px;
+    display: block;
+    margin: 0 auto;
+  }
+  .xinyidai{
+    padding: 0 0 15px 0;
+  }
+  .xinyidai>.center>h1 {
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    font-size: 33px;
+    font-weight: 400;
+    margin: 0 auto 20px auto;
+    padding: 30px 0 0 0;
+    text-align: center;
+  }
+  .xinyidai>.center>p{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+  .xinyidai>.center>a{
+    margin: 25px auto 25px;
+  }
+  .collaborate>.center>div{
+    width: 355px;
+    margin: 0 auto;
+  }
+  .collaborate>.center>div>img{
+    width: 113px;
+    margin: 0px !important;
+  }
+  .banner .center .top button {
+    position: fixed !important;
+    top: 0% !important;
+    right: 0% !important;
+    z-index: 99999;
+  }
+
+  .banner .center .top .logo {
+    left: 0%;
+    width: 210px !important;
+    padding: 14px 100% 14px 18px !important;
+  }
+  #communicate{
+    display: block;
+  }
+}

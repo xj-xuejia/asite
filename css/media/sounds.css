@@ -1,0 +1,159 @@
+@media screen and (max-width: 1120px){
+  h1{
+    font-size: 25px !important;
+    padding: 25px 0 !important;
+    margin: 25px auto !important;
+  }
+  p{
+    font-size: 14px !important;
+  }
+  .banner{
+    position: relative !important;
+  }
+  .banner .center .top div{
+    padding:  20px 0 20px 25px !important;
+    height: 335px !important;
+  }
+  #d1 a{
+    font-size: 14px;
+    margin: 40px 0 !important;
+  }
+  #d1 p, #d1 .d1-p{
+    font-size: 25px !important;
+    line-height: 42px;
+  }
+  #d1 p, #d1 .d1-span{
+    width: 255px;
+    font-size: 14px;
+  }
+  .banner .center .top div span{
+    margin: 20px 0 !important;
+  }
+  .banner .center .top div p{
+    margin: 75px 0 0 0 !important;
+  }
+  .center{
+    width: 100%;
+  }
+  .chanpin>.center>h1,
+  .yingyong>.center>h1,
+  .collaborate>.center>h1,
+  .jiage>.center>h1,
+  .kaifa>.center>h1{
+    font-size: 34px;
+    margin: 0 auto !important;
+  }
+  .chanpin>.center>p,
+  .yingyong>.center>p,
+  .collaborate>.center>p,
+  .jiage>.center>p,
+  .kaifa>.center>p{
+    width: 80%;
+    line-height: 26px;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+  .chanpin>.center>.swiper-container{
+    margin: 35px !important;
+  }
+  .chanpin>.center>.swiper-container>div>div{
+    margin: 10px auto;
+    width: 152px !important;
+  }
+  .swiper-pagination,
+  .swiper-button-prev,
+  .swiper-button-next{
+    display: none !important;
+  }
+  .swiper-slide{
+    width: 50% !important;
+    margin: 20px 0;
+  }
+  .yingyong{
+    background-image: url(../../image/sounds/zhongdashijiantixing.jpg);
+    background-position:0 center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .yingyong>.center>div{
+    width: 100%;
+  }
+  .yingyong>.center>div>div{
+    margin: 0 !important;
+  }
+  .yingyong>.center>div>div>div{
+    width: 50% !important;
+    padding: 0;
+    margin: 32px auto;
+  }
+  .yingyong>.center>div>div>div>div>img{
+    width: 100px;
+  }
+  .yingyong>.center>div>div>div>div>span{
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+  }
+  .yingyong>.center>div>div>div>p{
+    text-align: center;
+    line-height: 30px;
+  }
+  .collaborate{
+    padding: 0 0 40px 0;
+  }
+  .collaborate>.center>div{
+    width: 355px;
+    margin: 0 auto;
+  }
+  .collaborate>.center>div>img{
+    width: 113px;
+    margin: 0px !important;
+  }
+  .jiage>.center>div{
+    width: 292px;
+    height: 314px;
+    margin: 28px auto;
+    border-radius: 25px;
+  }
+  .jiage>.center>div>div{
+    margin: 80px 0 0 0;
+    font-size: 16px;
+  }
+  .jiage>.center>div>span{
+    font-size: 16px;
+  }
+  .kaifa{
+    padding: 0 0 50px 0;
+  }
+  .kaifa>.center>div>div>img{
+    width: 70%;
+  }
+  .kaifa>.center>div>div>span{
+    font-size: 22px;
+  }
+  .kaifa>.center>div>div>p{
+    font-size: 16px;
+  }
+  .kaifa>.center>div>div>a{
+    font-size: 16px;
+  }
+  .kaifa>.center>div>div{
+    width: 160px;
+    margin: 0;
+  }
+  .banner .center .top button {
+    position: fixed !important;
+    top: 0% !important;
+    right: 0% !important;
+    z-index: 99999;
+  }
+
+  .banner .center .top .logo {
+    left: 0%;
+    width: 210px !important;
+    padding: 14px 100% 14px 18px !important;
+  }
+  #communicate{
+    display: block;
+  }
+}

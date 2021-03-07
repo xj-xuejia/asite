@@ -1,0 +1,328 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.center{
+ width: 1120px;
+ margin: 0 auto;
+}
+.foot{
+  padding-bottom: 10px !important;
+}
+.banner .center .top div p{
+  margin: 120px 0 0 100px;
+  font-size: 36px;
+}
+.banner .center .top div{
+  height: 400px !important;
+  padding: 0 0 80px 0;
+}
+.banner .center .top div span{
+  width: 450px;
+  line-height: 30px;
+  font-size: 14px;
+  text-align: justify;
+  margin: 30px 100px;
+}
+.banner .center .top div img{
+  padding: 0 !important;
+  width: 527px !important;
+  margin: -248px 0 0 565px;
+}
+.banner .center .top div img:hover{
+  transition: 1s;
+  transform: scale(1.1);
+}
+.banner .center .top div a{
+  margin: 0 0 0 100px;
+}
+.guanli{
+  padding: 0 0 100px 0;
+}
+.guanli>.center{
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  flex-wrap: wrap;
+}
+.guanli>.center>h1{
+  width: 100%;
+  display: inline-block;
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
+  margin: 100px 0 60px 0;
+}
+.guanli>.center>p{
+  width: 100%;
+  text-align: center;
+}
+.guanli>.center>div{
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  flex-wrap: wrap;
+  margin: 60px 0 0 0;
+}
+.guanli>.center>div>div{
+  margin: 60px 76px;
+  cursor: pointer;
+}
+.guanli>.center>div>div:hover{
+  transition: 0.4s;
+  transform: scale(1.1);
+  color: #0072ff;
+}
+.guanli>.center>div>div img{
+  display: block;
+  margin: 0 auto;
+}
+.guanli>.center>div>div p{
+  font-size: 16px;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+.pingtai{
+  background-image: url(../image/call/platform.jpg);
+  background-position:0 center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 0 100px 0;
+}
+.pingtai>.center>h1,.pingtai>.center>p{
+  text-align: center;
+}
+.pingtai>.center>h1{
+  color: white;
+  width: 100%;
+  display: inline-block;
+  font-size: 38px;
+  font-weight: 600;
+  margin: 110px 0 60px 0;
+}
+.pingtai>.center>p{
+  color: #cad1d4;
+  margin: 0 0 50px 0;
+}
+.pingtai>.center>img{
+  width: 80%;
+  display:block;
+  margin: 0 auto;
+}
+.kaifa{
+  padding: 0 0 100px 0;
+}
+.kaifa>.center{
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  flex-wrap: wrap;
+}
+.kaifa>.center>h1{
+  width: 100%;
+  display: inline-block;
+  font-size: 38px;
+  font-weight: 600;
+  margin: 100px 0 60px 0;
+}
+.kaifa>.center>p{
+  margin: 0 auto;
+}
+.kaifa>.center>h1,.kaifa>.center>p{
+  text-align: center;
+}
+.kaifa>.center>div{
+  width: 94%;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  flex-wrap: wrap;
+  margin: 30px auto 0;
+}
+.kaifa>.center>div>div{
+  width: 310px;
+  text-align: center;
+  cursor: pointer;
+  margin:30px 18px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.kaifa>.center>div>div:hover{
+  transition: 0.2s;
+  transform: scale(1.02);
+  color: #0072ff !important;
+}
+.kaifa>.center>div>div>span{
+  font-weight: 600;
+  font-size: 16px;
+  display: block;
+  margin: 12px 0;
+  text-align: center;
+}
+.kaifa>.center>div>div>div{
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.kaifa>.center>div>div:nth-child(1){
+  background-image: url(../image/call/conversation-out.png);
+}
+.kaifa>.center>div>div:nth-child(2){
+  background-image: url(../image/call/queue-control-out.png);
+}
+.kaifa>.center>div>div:nth-child(3){
+  background-image: url(../image/call/push-out.png);
+}
+.kaifa>.center>div>div:nth-child(4){
+  background-image: url(../image/call/vir-out.png);
+}
+.kaifa>.center>div>div:nth-child(5){
+  background-image: url(../image/call/Interface-out.png);
+}
+.kaifa>.center>div>div:nth-child(6){
+  background-image: url(../image/call/seats-out.png);
+}
+.kaifa>.center>div>div:nth-child(1):hover{
+  background-image: url(../image/call/conversation.png);
+}
+.kaifa>.center>div>div:nth-child(2):hover{
+  background-image: url(../image/call/queue-control.png);
+}
+.kaifa>.center>div>div:nth-child(3):hover{
+  background-image: url(../image/call/push.png);
+}
+.kaifa>.center>div>div:nth-child(4):hover{
+  background-image: url(../image/call/vir.png);
+}
+.kaifa>.center>div>div:nth-child(5):hover{
+  background-image: url(../image/call/Interface.png);
+}
+.kaifa>.center>div>div:nth-child(6):hover{
+  background-image: url(../image/call/seats.png);
+}
+.kaifa>.center>div>div>div:hover,
+.kaifa>.center>div>div>div:active{
+  transition: 0.2s;
+  transform: scale(1.2);
+}
+.kaifa>.center>div>div>p{
+  /* color: #636566; */
+  font-size: 14px;
+  line-height: 32px;
+}
+.ivr{
+  background-image: url(../image/call/examples.jpg);
+  background-position:0 center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 0 100px 0;
+}
+.ivr>.center>h1{
+  color: white;
+  width: 100%;
+  display: inline-block;
+  font-size: 38px;
+  font-weight: 600;
+  margin: 110px 0 60px 0;
+  text-align: center;
+}
+.ivr>.center>p{
+  color: white;
+  text-align: center;
+  margin: 0 auto 60px auto;
+  color: #cad1d4;
+}
+.ivr>.center>img{
+  width: 100%;
+  display:block;
+  margin: 0 auto;
+}
+.collaborate{
+  background-image: url(../image/customer_bg.jpg);
+  background-position:0 center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 0 100px 0;
+}
+.collaborate>.center>h1{
+  width: 100%;
+  display: inline-block;
+  font-size: 38px;
+  font-weight: 600;
+  margin: 110px 0 60px 0;
+  text-align: center;
+}
+.collaborate>.center>p{
+  text-align: center;
+  margin: 0 auto 60px auto;
+  color: #898888;
+}
+.collaborate>.center>div{
+  width: 84%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.collaborate>.center>div>img{
+  width: 155px;
+  margin: -3px;
+  cursor: pointer;
+  border: 1px solid #d3d3d3;
+}
+.collaborate>.center>div>img:hover,
+.collaborate>.center>div>img:active{
+  transition: 1s;
+  transform: scale(1.08);
+}
+.xinyidai{
+  background-image: url(../image/call/apply.jpg);
+  background-position:0 center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 0 100px 0;
+}
+.xinyidai>.center>h1{
+  color: white;
+  width: 100%;
+  display: inline-block;
+  font-size: 38px;
+  font-weight: 600;
+  margin: 110px 0 60px 0;
+  text-align: center;
+}
+.xinyidai>.center>a{
+  display: block;
+  width: 120px;
+  height: 42px;
+  background-color: #0072ff;
+  text-decoration: none;
+  line-height: 42px;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+}
+.foot{
+  padding-bottom: 20px !important;
+}
+.banner .center .top .logo {
+  position: fixed;
+  z-index: 9999;
+  left: 0%;
+}
+
+.banner .center .top ul,
+.banner .center .top .logo {
+  top: 0%;
+}
+
+.banner .center .top ul {
+  position: fixed;
+  z-index: 99999;
+  right: 0%;
+}
+#communicate{
+  display: none;
+}

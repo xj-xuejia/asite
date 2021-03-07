@@ -1,0 +1,71 @@
+@media screen and (max-width:1120px){
+  *{
+    flex-wrap: wrap;
+  }
+  .foot{
+    width: 100%;
+    padding-bottom: 44px !important;
+  }
+  .foot>div>.media{
+    display: none;
+  }
+  .foot div{
+    width: 91%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .foot div .top li{
+    display: table;
+    width: 100%;
+    text-align: center;
+    line-height: 48px;
+  }
+  .foot div .top li img{
+    text-align: center;
+    vertical-align: middle;
+  }
+  .foot div .top li:not(.foot div .top li:nth-child(1))::before,
+  .foot div .bottom li:not(.foot div .bottom li:nth-child(1))::before{
+    display: none;
+  }
+  .foot div .center{
+    padding: 0;
+    margin: 0 0 20px 0;
+    border-top: 1px solid #585858;
+    border-bottom: 1px solid #585858;
+  }
+  .foot div .center li{
+    width: 100%;
+  }
+  .foot div .center li img{
+    display: block;
+    margin: 30px auto 0 auto;
+  }
+  .foot div .center li a{
+    margin: 22px auto 30px auto;
+    width: 50%;
+    height: 50%;
+  }
+  .foot div .top {
+    padding: 35px 0;
+  }
+  .foot div .bottom{
+    width: 100%;
+  }
+  .address div div{
+    width: 100%;
+  }
+  .address div div span{
+    width: 100%;
+    display: block;
+    line-height: 30px;
+    font-size: 14px;
+  }
+  .address .code .QR_code{
+    display: block;
+    margin: 20px auto 0 auto;
+  }
+  .address .code p{
+    margin: 10px 0;
+  }
+}
